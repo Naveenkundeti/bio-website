@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-pic {
+    width: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+    border: 3px solid #2563eb;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #1d4ed8;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #e0f2fe;
+    margin: 6px 0;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  
+  a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  .resume-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .resume-btn:hover {
+    background-color: #1e40af;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .profile-pic {
+      width: 90px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    ul li {
+      font-size: 14px;
+    }
+  }
